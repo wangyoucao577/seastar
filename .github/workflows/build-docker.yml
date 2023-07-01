@@ -4,6 +4,7 @@ on:
   push:
     paths:
     - 'docker/**'
+    - '.github/workflows/build-docker.yml'
 
 permissions:
     packages: write
