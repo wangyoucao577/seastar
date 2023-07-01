@@ -2,8 +2,8 @@ name: Build Docker
 
 on: 
   push:
-    # paths:
-    # - 'docker/**'
+    paths:
+    - 'docker/**'
 
 permissions:
     packages: write
