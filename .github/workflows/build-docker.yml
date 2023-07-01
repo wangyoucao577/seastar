@@ -5,6 +5,9 @@ on:
     # paths:
     # - 'docker/**'
 
+permissions:
+    packages: write
+
 env:
   IMAGE_NAME: seastar-dev
 
